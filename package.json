@@ -1,0 +1,40 @@
+{
+  "name": "devrantface",
+  "author": "olpe",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "devrantface",
+    "uuid": "c00d2ee8-f8d8-4754-b565-4b273868fbea",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type":"font",
+          "name":"FONT_PERFECT_DOS_48",
+          "file":"Comfortaa-Bold.ttf",
+          "compatibility": "2.7"
+        },
+        {
+          "type":"bitmap",
+          "name":"IMAGE_BACKGROUND",
+          "file":"devrant.png"
+        }
+      ]
+    }
+  }
+}
